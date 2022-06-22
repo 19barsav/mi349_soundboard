@@ -6,11 +6,11 @@ var buttonElement3 = document.getElementById('blaster')
 
 
 var sound_play = function (sound) {
-    if (sound == 'carrie') {
+    if (sound == 'c') {
         var x = document.getElementById("carrie_wav");
         x.play();
     }
-    else if (sound == 'harrison') {
+    else if (sound == 'h') {
         var x = document.getElementById("harrison_wav");
         x.play();
     }
@@ -21,8 +21,8 @@ var sound_play = function (sound) {
 
 }
 
-buttonElement1.addEventListener('click', sound_play('carrie'))
-buttonElement2.addEventListener('click', sound_play('harrison'))
+buttonElement1.addEventListener('click', sound_play('c'))
+buttonElement2.addEventListener('click', sound_play('h'))
 buttonElement3.addEventListener('click', sound_play(''))
 
 
