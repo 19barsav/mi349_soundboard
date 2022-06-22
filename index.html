@@ -9,7 +9,7 @@
 </head>
 <body>
     <audio id="carrie_wav">
-        <source src="dont_like.wav" muted=true type="audio/wav">
+        <source src="dont_like.wav" type="audio/wav">
     </audio>
     <audio id="harrison_wav">
         <source src="bad_feeling.wav" type="audio/wav">
@@ -17,7 +17,7 @@
     <audio id="blaster_wav">
         <source src="blaster.wav" type="audio/wav">
     </audio>
-    <button class="instrument" id="carrie"></button>
+    <button class="instrument" id="carrie" onclick="sound_play('carrie')"></button>
     <button class="instrument" id="harrison"></button>
     <button class="instrument" id="blaster"></button>
     <script src="soundboard.js"></script>

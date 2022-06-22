@@ -1,4 +1,4 @@
-var buttonElement1 = document.getElementById('carrie')
+
 var buttonElement2 = document.getElementById('harrison')
 var buttonElement3 = document.getElementById('blaster')
 
@@ -22,7 +22,7 @@ var sound_play = function (sound) {
 
 }
 
-buttonElement1.addEventListener('click', sound_play('c'))
+
 buttonElement2.addEventListener('click', sound_play('h'))
 buttonElement3.addEventListener('click', sound_play(''))
 
