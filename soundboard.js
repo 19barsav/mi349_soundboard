@@ -14,12 +14,14 @@ audio.src = "dont_like.wav"
 var sound_play = function (sound) {
     if (sound == 'carrie') {
         audio.play();
+        console.log("carrie");
     }
     else if (sound == 'harrison') {
-        
+        console.log("harrison");
         music2.play();
     }
     else {
+        console.log("blaster");
         music3.play();
     }
 
