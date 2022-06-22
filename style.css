@@ -2,9 +2,31 @@ body {
     background-color: #fec1c1fd;
 }
 
-div {
-    background-color: rgb(252, 241, 241);
+.card {
+    background-color: #f3f3f3;
+    border-radius: 15px;
     margin: 0 auto;
-    width: 400px;
+    width: 200px;
+    text-align: center;
+    box-shadow: rgba(0,0,0,0.1) 0 10px 10px;
+    border: 2px solid #aaa;
     display: block;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.instrument {
+    width: 160px;
+    height: 90px;
+    margin: 20px;
+}
+
+button {
+    padding: 20 20;
+    margin: 20 20;
+    font-size: medium;
+    background-color: #f5d7d7;
+    font-weight:bold;
 }
