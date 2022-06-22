@@ -22,6 +22,6 @@ var sound_play = function (sound) {
 }
 
 
-buttonElement1.addEventListener('mouseover', sound_play("carrie"))
-buttonElement2.addEventListener('mouseover', sound_play("harrison"))
-buttonElement3.addEventListener('mouseover', sound_play("blaster"))
+buttonElement1.addEventListener('click', sound_play("carrie"))
+buttonElement2.addEventListener('click', sound_play("harrison"))
+buttonElement3.addEventListener('click', sound_play("blaster"))
