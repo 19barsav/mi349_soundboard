@@ -11,15 +11,15 @@ const music3 = new Audio('blaster.wav');
 
 var sound_play = function (sound) {
     if (sound == 'carrie') {
-        console.log("carrie");
-        music1.play();
+        console.log("carrie"),
+        music1.play()
     }
     else if (sound == 'harrison') {
         
-        music2.play();
+        music2.play()
     }
     else {
-        music3.play();
+        music3.play()
     }
 
 }
