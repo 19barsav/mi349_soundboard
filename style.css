@@ -1,0 +1,10 @@
+body {
+    background-color: #fec1c1fd;
+}
+
+div {
+    background-color: rgb(252, 241, 241);
+    margin: 0 auto;
+    width: 400px;
+    display: block;
+}
