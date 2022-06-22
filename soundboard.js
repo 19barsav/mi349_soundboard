@@ -8,14 +8,17 @@ var buttonElement3 = document.getElementById('blaster')
 var sound_play = function (sound) {
     if (sound == 'carrie') {
         const music = new Audio('dont_like.wav');
+        music.muted = true;
         music.play();
     }
     else if (sound == 'harrison') {
         const music = new Audio('bad_feeling.wav');
+        music.muted = true;
         music.play();
     }
     else {
         const music = new Audio('blaster.wav');
+        music.muted = true;
         music.play();
     }
 
