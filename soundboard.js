@@ -8,7 +8,7 @@ var buttonElement3 = document.getElementById('blaster')
 var sound_play = function (sound) {
     if (sound == 'c') {
         var x = document.getElementById("carrie_wav");
-        x.muted = true;
+       
         x.play();
     }
     else if (sound == 'h') {
