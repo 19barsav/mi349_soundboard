@@ -2,9 +2,6 @@ var buttonElement1 = document.getElementById('carrie')
 var buttonElement2 = document.getElementById('harrison')
 var buttonElement3 = document.getElementById('blaster')
 
-buttonElement1.addEventListener('click', sound_play("carrie"))
-buttonElement2.addEventListener('click', sound_play("harrison"))
-buttonElement3.addEventListener('click', sound_play("blaster"))
 
 const music1 = new Audio('dont_like.wav');
 const music2 = new Audio('bad_feeling.wav');
@@ -28,3 +25,6 @@ var sound_play = function (sound) {
 }
 
 
+buttonElement1.addEventListener('click', sound_play("carrie"))
+buttonElement2.addEventListener('click', sound_play("harrison"))
+buttonElement3.addEventListener('click', sound_play("blaster"))
